@@ -15,11 +15,13 @@ public class test {
         result[0]=2;
         result[1]=3;
         result[2]=5;
+        result[3]=7;
+        result[4]=11;
     }
  
     @Test
     public void testPrintPrimes() {
-        assertArrayEquals(result,primeTest.printPrimes(3));
+        assertArrayEquals(result,primeTest.printPrimes(5));
         
     }
 }
